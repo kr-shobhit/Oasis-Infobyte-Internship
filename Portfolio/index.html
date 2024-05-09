@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shobhit | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Shantell+Sans:wght@500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="resource/heart.png" type="image/png">
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <nav>
+        <h2 id="logo">Shobhit's Developer Portfolio</h2>
+        <div class="links">
+            <a href="#homepage">
+                <h4>Home</h4>
+            </a>
+            <a href="#about_page">
+                <h4>About Me</h4>
+            </a>
+            <a href="#education_page">
+                <h4>Education</h4>
+            </a>
+            <!-- <a href="#work_page">
+                <h4>Work Profile</h4>
+            </a> -->
+            <a href="#skills_page">
+                <h4>Skills</h4>
+            </a>
+            <a href="#contact_page">
+                <h4>Contact</h4>
+            </a>
+            <i class="fa-regular fa-face-smile-wink" style="color: #ffffff;"></i>
+        </div>
+    </nav>
+
+    <section id="homepage">
+        <div class="content">
+            <div class="left_side_homepage">
+                <img src="resource/home-page.jpg" alt="home-page-image">
+            </div>
+            <div class="right_side_homepage">
+                <h2>Hello Fellow Coders 👋🏻</h2>
+                <h3>I'm Shobhit</h3>
+                <p>Warm Greetings and a big Virtual Hug! 🌟 Your presence here is truly special, and I'm overjoyed to
+                    welcome you. 🎉 Take your sweet time to wander through the bits and bobs I've crafted with heaps of
+                    passion and a touch of whimsy. 🚶‍♂️💖 If anything sparks your interest or you simply fancy a
+                    friendly chat, my virtual door is wide open – don't be shy, shoot me a message! 📩 Let's turn this
+                    digital encounter into something uniquely wonderful. Enjoy your exploration, and feel the magic
+                    unfold! 🌈✨
+                </p>
+                <span id="Last-text">Happy Coding!!</span>
+                <div class="button_container">
+                    <button type="button" onclick="scrollToSection('about_page')">Explore More</button>
+                    <button type="button"
+                        onclick="window.open('https://drive.google.com/file/d/1UXD4KvEyr99812heORDxNMB4W83PqLyF/view?usp=sharing','_blank')">Download
+                        Resume</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about_page">
+        <div class="about-content">
+            <h1 id="about_toptext">About Me</h1>
+            <p id="about_maintext">
+                Greetings! 👋<br><br>Myself Shobhit, a passionate coder hailing from the serene city of Ranchi,
+                Jharkhand.
+                My journey into the captivating world of computer science has been nothing short of exhilarating. 🚀
+                Starting my stream in Computer Science during my schooling at <b><a
+                        href="https://en.wikipedia.org/wiki/DAV_Kapil_Dev_Public_School" target="_blank">DAV
+                        Kapildev</b></a>, the seeds of curiosity were planted early on. 🌱<br><br>
+                Fast forward to my University Journey, which began in 2022 and is set to culminate in 2025 at <b><a
+                        href="https://en.wikipedia.org/wiki/Birla_Institute_of_Technology,_Mesra" target="_blank">Birla
+                        Institute of
+                        Technology Mesra (Extension-Center Lalpur)</a></b>, where I'm currently persuing <b><a
+                        href="https://en.wikipedia.org/wiki/Bachelor_of_Science_in_Information_Technology#India"
+                        target="_blank">Bachelor
+                        of Computer Application (BCA)</a></b>. This educational expedition has been a dynamic
+                exploration, immersing me in a stimulating academic environment that nurtures my passion and
+                encourages me to push boundaries.<br><br>
+                From learning the foundational concepts during my schooling to the advanced topics at the collegiate
+                level, each phase has added layers to my understanding of computer science. 🖥️
+                <br><br>
+                As I navigate the captivating world of computer science, I am constantly inspired by the
+                transformative power of technology and its ability to shape the future. My journey is fueled by a
+                desire to contribute meaningfully to the ever-evolving tech landscape and make a positive impact on
+                the world.
+                <br><br>
+                Ready to embark on this coding odyssey together? 🚀 Feel the pulse of innovation, join the rhythm of
+                algorithms, and let's create digital magic! 🌟<br><br><b><a href="#contact_page">Connect with
+                        me</a></b>, fellow tech enthusiast, and let the code adventure begin! 💻✨
+
+            </p>
+        </div>
+    </section>
+
+    <section id="education_page">
+        <div class="education-content">
+            <div class="education-leftbox">
+                <div id="education-name">Primary / Higher Secondary Schooling</div>
+                <div id="education-image">
+                    <img src="https://media.licdn.com/dms/image/C4D1BAQGxyLFso17gxw/company-background_10000/0/1619076815166/dav_kapil_dev_public_school_cover?e=2147483647&v=beta&t=WCZq_AXPT50Gh7Y0B3mHIKgpwxh1WJDeUjqryI_W-TY"
+                        alt="dav">
+                </div>
+                <div id="education-details">
+                    <h3>DAV Kapildev Public School</h3>
+                    <p>Starting Date : April 2008 <br>
+                        Ending Date : March 2022 <br>
+                        Affiliation : CBSE <br>
+                        Secondary School Exam (10<sup>th</sup>) : 79.16 %<br>
+                        Stream : 10+2 (Commerce Stream) <br>
+                        Higher School Exam (12 <sup>th</sup>) : 83% <br>
+                        <b>Voluntary Experience</b><br>
+                        National Cadet Corps <br>
+                        Role : Cadet
+                    </p>
+                </div>
+            </div>
+            <div class="education-midbox">
+                <div id="education-name">voluntary experience</div>
+                <div id="education-image">
+                    <img src="resource/ncc.jpeg" alt="ncc">
+                </div>
+                <div id="education-details">
+                    <h3>National Cadet Corps (NCC)</h3>
+                    <p>
+                        Starting Date : April 2017 <br>
+                        Ending Date : March 2019 <br>
+                        Service Years : 2 Years <br>
+                        Role : Cadet <br>
+                        Unit : Jharkhand-19 Battalion NCC <br>
+                        Grade : A <br>
+                        Directorate : Bihar and Jharkhand <br>
+
+                    </p>
+
+                </div>
+            </div>
+            <div class="education-rightbox">
+                <div id="education-name">Bachelors / Undergraduate University</div>
+                <div id="education-image">
+                    <img src="https://images.shiksha.com/mediadata/images/1687787632phpNV53Hq.jpeg" alt="" srcset="">
+                </div>
+                <div id="education-details">
+                    <h3>Birla Institute of Technology</h3>
+                    <p>
+                        Starting Date : August 2022 <br>
+                        Ending Date : June 2025 (Ongoing) <br>
+                        Institute Type : Deemed To Be University <br>
+                        Course : Bach. of Computer Applications<br>
+                        <b>Voluntary Experience </b><br>
+                        Information Technology Society (ITS)<br>
+                        Role - Executive Member , Lensman <br>
+                        <b>Achievement</b><br>
+                        CODEFEST Hackathon - Problem Statement Winner 2023
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="work_page">
+        <div class="work-content">
+            <div class="work-left">
+                <h3>WORKING Experience</h3>
+                <p> N/A</p>
+            </div>
+            <div class="work-right">
+                <div class="work-right-top">
+                    <h3>Internship </h3>
+                    <div class="details-block"></div>
+                </div>
+                <div class="work-right-down">
+                    <h3>Certifications</h3>
+
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+    <section id="skills_page">
+        <div class="skills-content">
+            <div class="skills_side">
+                <h3 id="skills_h3">Languages Known</h3>
+                <div class="skills_container">
+                    <img src="resource/c.png" alt="c" id="skills_icons" title="C">
+                    <img src="resource/c++.png" alt="cpp" id="skills_icons" title="C++">
+                    <img src="resource/java.png" alt="java" id="skills_icons" title="Java">
+                    <img src="resource/html5.png" alt="html" id="skills_icons" title="HTML5">
+                    <img src="resource/css.png" alt="css" id="skills_icons" title="CSS3">
+                    <img src="resource/javascript.png" alt="js" id="skills_icons" title="JavaScript">
+                    <img src="resource/mysql.png" alt="mysql" id="skills_icons" title="MySQL">
+                    <img src="resource/php.png" alt="php" id="skills_icons" title="PHP">
+                </div>
+                <div class="skills_stars">
+                    <h3 id="skills_h3">Skills Acquired</h3>
+                    <h3 id="skill_stars">Front-End Development (HTML / CSS / JS) <i class="fa-solid fa-star"
+                            style="color: #ffd43b;"></i><i class="fa-solid fa-star" style="color: #ffd43b;"></i><i
+                            class="fa-solid fa-star" style="color: #ffd43b;"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></h3>
+                    <h3 id="skill_stars">Back-End Development <i class="fa-solid fa-star" style="color: #ffd43b;"></i><i
+                            class="fa-solid fa-star" style="color: #ffd43b;"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h3>
+                    <h3 id="skill_stars">Database Devlopment and Connectivity <i class="fa-solid fa-star"
+                            style="color: #ffd43b;"></i><i class="fa-solid fa-star" style="color: #ffd43b;"></i><i
+                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></h3>
+                    <h3 id="skill_stars">Server Side Scripting<i class="fa-solid fa-star"
+                            style="color: #ffd43b;"></i><i class="fa-solid fa-star" style="color: #ffd43b;"></i><i
+                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></h3>
+                    <h3 id="skill_stars">Git and GitHub <i class="fa-solid fa-star" style="color: #ffd43b;"></i><i
+                            class="fa-solid fa-star" style="color: #ffd43b;"></i><i class="fa-solid fa-star"
+                            style="color: #ffd43b;"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></h3>
+                    <h3 id="skill_stars">Graphics and Designing <i class="fa-solid fa-star"
+                            style="color: #ffd43b;"></i><i class="fa-solid fa-star" style="color: #ffd43b;"></i><i
+                            class="fa-solid fa-star" style="color: #ffd43b;"></i><i class="fa-solid fa-star"
+                            style="color: #FFD43B;"></i><i class="fa-regular fa-star"></i></h3>
+
+                </div>
+
+
+
+
+            </div>
+            <div class="project_side">
+                <h3 id="skills_h3">Projects Created</h3>
+                <div class="project_row">
+                    <section id="project_image">
+                        <img src="resource/books.png" alt="" id="project_icons">
+                    </section>
+                    <section id="project_desc">
+                        <a href="https://github.com/kr-shobhit/Library-Management-System" target="_blank">
+                            <h4>Library Management System</h4>
+                        </a>
+                        <p>Library Management System having features of Adding Students to Library , Adding New Books to
+                            Library , Issuing Books , Calculating Fine and many more..</p>
+                        <h5>Language Used - Java</h5>
+                    </section>
+
+                </div>
+
+                <div class="project_row">
+                    <section id="project_image">
+                        <img src="resource/calculator.png" alt="" id="project_icons">
+                    </section>
+                    <section id="project_desc">
+                        <a href="https://github.com/kr-shobhit" target="_blank">
+                            <h4>Calculator</h4>
+                        </a>
+                        <p>A Simple Calculator Created Online for Practising HTML and JavaScript Skills. </p>
+                        <h5>Language Used - HTML , CSS , JavaScript</h5>
+                    </section>
+
+                </div>
+
+                <div class="project_row">
+                    <section id="project_image">
+                        <img src="resource/user-folder.png" alt="resume_builder" id="project_icons">
+                    </section>
+                    <section id="project_desc">
+                        <a href="https://github.com/kr-shobhit/Dynamic_Resume_Builder" target="_blank">
+                            <h4>Dynamic Resume Builder</h4>
+                        </a>
+                        <p>Dynamic Resume Builder where a user can fill up a form within a minute and can get a professional looking resume which can be downloaded easily.</p>
+                        <h5>Language Used - HTML , CSS , JavaScript</h5>
+                    </section>
+
+                </div>
+
+                <!-- <div class="project_row">
+                    <section id="project_image">
+                        <img src="resource/apple-weather-application-logo.png" alt="" id="project_icons">
+                    </section>
+                    <section id="project_desc">
+                        <a href="https://github.com/kr-shobhit" target="_blank">
+                            <h4>Weather App</h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste facere et illo amet optio
+                            repudiandae! Non laudantium, quam dolor culpa a voluptatum dicta ut optio, veritatis
+                            laboriosam vitae, ipsam similique.</p>
+                        <h5>Language Used - HTML , CSS , JavaScript</h5>
+                    </section>
+
+                </div> -->
+
+                <!-- <div class="project_row">
+                    <section id="project_image">
+                        <img src="spotify.png" alt="" id="project_icons">
+                    </section>
+                    <section id="project_desc">
+                        <a href="https://github.com/kr-shobhit" target="_blank">
+                            <h4>Spotify App Clone</h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt at recusandae voluptatibus
+                            possimus totam aliquid est? Quisquam odit minus officia.</p>
+                        <h5>Language Used - HTML , CSS , JavaScript</h5>
+                    </section>
+
+                </div> -->
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="contact_page">
+        <div class="contact-content">
+            <div class="social-box">
+                <section id="text">Connect With Me on Social Media :</section>
+                <section id="imgsssss">
+                    <a href="https://www.facebook.com/people/Shobhit-Kumar/pfbid02L7sZEe3bJ4dgwqi8i48VxcmBNSjaQCAHNDc3WB7YqEYsPf2AeMVouqA7Y3zS6dN9l/"
+                        target="_blank"><img src="resource/facebook.png" alt="fb"></a>
+                    <a href="https://www.instagram.com/kr_shobhit" target="_blank"><img src="resource/instagram.png"
+                            alt="instagram"></a>
+                    <a href="https://github.com/kr-shobhit" target="_blank"><img src="resource/github_social.png"
+                            alt="github"></a>
+                    <a href="https://www.linkedin.com/in/kr-shobhit/" target="_blank"><img src="resource/linkedin.png"
+                            alt="linkedin"></a>
+                    <a href="https://twitter.com/kr__shobhit" target="_blank"><img src="resource/twitter-x.png"
+                            alt="twitter"></a>
+
+                </section>
+                <section id="bugs">
+                    <h4>Found Some Bugs or improvements?</h4>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlFlwVcQQktzXpHZpzFTcqdfzTpGdvPLdLWnlJqMJJrTDKXppQpCHZZmFXmtJJTmfpDndq"
+                        target="_blank"><img src="resource/mail.png" alt="mail"></a>
+                </section>
+            </div>
+            <div class="other-box">
+                <img src="resource/contact_page_img.jpeg" alt="contact_page_img">
+                <div class="contact_form">
+                    <section>
+
+                        <h2>Got Project Ideas? Let's Collaborate</h2>
+                        <p>Thank you for your interest in my work! Whether you have a question, a project proposal, or
+                            just
+                            want to say hello, I'd love to hear from you. You can reach out to me via email or social
+                            media.
+                            Looking forward to connecting with you!</p>
+                    </section>
+                    <div class="buttons_div_contact">
+                        <button type="button" id="resume_btn"
+                            onclick="window.open('https://drive.google.com/file/d/1QZo1zeDstMh-1SgRSZLdBdu6gLQ9z3VU/view?usp=sharing','_blank')">Download
+                            Resume</button>
+                        <button type="button" onclick="scrollToSection('homepage')" id="back2top">Back to Top</button>
+                    </div>
+                    <section>
+                        <h2 id="second_h2">Thanks For Your Visit !!</h2>
+                        <section id="seeoff">
+                            <h6>Made With ❤️ by Shobhit</h6>
+                            <button type="button" onclick="scrollToSection('homepage')"><i class="fa-solid fa-house"></i></button>
+                        </section>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>

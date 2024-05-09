@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+    <title>Temperature Convertor</title>
+</head>
+
+<body>
+    <h1>Temperature Convertor</h1>
+    <div class="container">
+        
+        <div class="units">
+
+            <label>Enter Value </label>
+            <input type="number" name="fromVal" id="fromVal" class="inputBox" placeholder="Enter Value" required>
+
+
+            <label>Convert From</label>
+            <select name="fromChoose" id="fromChoose" class="dropdown_vals">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <label>To</label>
+            <select name="toChoose" class="dropdown_vals" id="toChoose">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+
+        </div>
+
+
+        <div class="buttons">
+            <button type="button" onclick="conv()">Convert</button>
+            <button type="reset" onclick="res()">Reset Values</button>
+        </div>
+
+        <p id="result"></p>
+
+    </div>
+</body>
+
+</html>
